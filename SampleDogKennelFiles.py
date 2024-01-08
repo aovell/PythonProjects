@@ -1,7 +1,7 @@
 #Alyn Ovell
-#Lab 4
-# Prompt user to enter dog information and save records in a text file
+#SampleDogKennelFiles
 
+# Prompt user to enter dog information and save records in a text file
 filename = "AOvell.txt"  
 #open the file to write to it
 with open("AOvell.txt", "w") as file:
@@ -14,9 +14,7 @@ with open("AOvell.txt", "w") as file:
         record = f"{dog_name}, {owner_last_name}, {dog_age}, {dog_weight}, {dog_breed}\n"
         file.write(record)
 
- 
-      # Read records from text file and determine dosage for heartworm medication
-
+ # Read records from text file and determine dosage for heartworm medication
 dosages = {11: 0.25, 15:0.25, 20:0.25, 22: 0.5, 33: 0.75, 44: 1.0, 55: 1.25, 66: 1.5, 77: 1.75, 88: 2.0, 90:2.0, 99: 2.25, 110: 2.5, 120:2.5, 121: 2.75, 132: 3, 149: 3.5, 175: 3.5}
 
 #open text file to read
