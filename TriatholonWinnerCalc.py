@@ -1,5 +1,6 @@
 #Alyn Ovell
-#lab3
+#TriatholonWinnerCalc
+
     # Function that converts time in the format hh:mm:ss to seconds
 def time_to_seconds(time):
     hours, minutes, seconds = time.split(":")
