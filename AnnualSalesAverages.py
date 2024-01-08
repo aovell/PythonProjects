@@ -1,5 +1,5 @@
 #Alyn  Ovell
-#LabExamPractice2
+#AnunalSalesAverages
 
 # initialize variables
 total_sales = 0
